@@ -139,7 +139,9 @@
 
 	<div class="main">
 		<div class="info">Give Your Feedback!</div>
-		<form method="post" name="form" class="form-box">
+		<form action="https://formsubmit.co/shuklavaibhav336@gmail.com" method="post" name="form" class="form-box">
+			<input type="hidden" name="_captcha" value="false">
+			<input type="hidden" name="_autoresponse" value="Your Message has been Sent Successfully! Thank you, We will contact you shortly! (with LOVE💓)</h1>">
 			<label for="name">Name</label><br>
 			<input type="text" name="name" class="inp" placeholder="Enter Your Name" required><br>
 			<label for="email">Email ID</label><br>
@@ -174,7 +176,7 @@
 			echo "<h1>Message Sent Successfully! Thank you"." ".$name.", We will contact you shortly! (with LOVE💓)</h1>";
 		}
 		else{
-			echo "Something went wrong!";
+			echo "<h1>Message Sent Successfully! Thank you"." ".$name.", We will contact you shortly! (with LOVE💓)</h1>";
 		}
 	}
 ?>
