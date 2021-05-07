@@ -84,7 +84,7 @@
 		}
 	</style>
 </head>
-<body>
+<body background="images\site_home_background.jpg">
 	<div class="main">
 		<div class="info">Give Your Feedback!</div>
 		<form method="post" name="form" class="form-box">
